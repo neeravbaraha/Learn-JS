@@ -7,7 +7,6 @@
 Variables are used to store data in JavaScript. They can hold different types of values such as numbers, strings, or objects.
 
 # How is it used?
-
 ## JavaScript provides three ways to declare variables:
 
 var: Function-scoped, can be redeclared and reassigned.
@@ -35,17 +34,14 @@ Variables allow us to store and manipulate data in a program.
 ### Explain the difference between let and var with examples.
 
 # ✅ Data Types
-
 ## What is it?
 
 Data types define the kind of data a variable can hold.
-
 ## How is it used?
 
 JavaScript has the following data types:
 
 ## Primitive: string, number, boolean, null, undefined, symbol, bigint
-
 ## Non-primitive: object, array, function
 
 let str = "Hello"; // String
@@ -57,29 +53,21 @@ let id = Symbol(); // Symbol
 let bigNum = 9007199254740991n; // BigInt
 
 ## Why is it used?
-
 Understanding data types helps in proper memory allocation and avoiding unexpected errors.
 
 # Coding Problems
-
 ## Declare variables of all primitive data types and log their values.
-
 ## Convert a number to a string and vice versa.
-
 ## Create a program that checks the type of a variable using typeof.
-
 ## Compare null and undefined.
-
 ## Create a program that generates a unique Symbol.
 
 ✅ Operators
 
 ## What is it?
-
 Operators are symbols that perform operations on variables and values.
 
 ## How is it used?
-
 Arithmetic: +, -, \*, /, %, ++, --
 Comparison: ==, ===, !=, !==, <, >, <=, >=
 
@@ -88,29 +76,20 @@ console.log(a + b); // 15
 console.log(a === b); // false
 
 ## Why is it used?
-
 Operators allow us to manipulate data and perform calculations.
 
 # Coding Problems
-
 ## Perform basic arithmetic operations.
-
 ## Create a program to check if a number is even or odd.
-
 ## Compare two strings and numbers using == and ===.
-
 ## Implement a simple calculator using arithmetic operators.
-
 ## Demonstrate the use of ++ and --.
 
 # ✅ Control Flow
-
 ## What is it?
-
 Control flow determines the execution order of statements in a program.
 
 ## How is it used?
-
 if-else (Conditional statements)
 switch-case (Multiple conditions)
 Ternary Operator (condition ? trueValue : falseValue)
@@ -123,19 +102,13 @@ console.log("Fail");
 }
 
 ## Why is it used?
-
 Control flow allows us to execute different code blocks based on conditions.
 
-#Coding Problems
-
+# Coding Problems
 ## Write a program that checks if a number is positive, negative, or zero.
-
 ## Create a simple grading system using if-else.
-
 ## Implement a menu-driven calculator using switch-case.
-
 ## Write a program that checks whether a year is a leap year.
-
 ## Use the ternary operator to assign a value based on a condition.
 
 # ✅ Loops
@@ -222,11 +195,11 @@ Use functions to handle operations.
 
 # 🎯 Final Coding Challenges (All Topics Combined)
 
-Create a function that takes a number and returns whether it is even or odd.
-Write a program that takes user input and determines if it is a palindrome.
-Implement a function to count the occurrences of each character in a string.
-Develop a simple number guessing game.
-Create a program that finds the sum of all prime numbers up to n.
+#### Create a function that takes a number and returns whether it is even or odd.
+#### Write a program that takes user input and determines if it is a palindrome.
+#### Implement a function to count the occurrences of each character in a string.
+#### Develop a simple number guessing game.
+#### Create a program that finds the sum of all prime numbers up to n.
 
 # 🔹 Console.log()
 
