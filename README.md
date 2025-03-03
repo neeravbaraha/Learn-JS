@@ -55,6 +55,35 @@ let bigNum = 9007199254740991n; // BigInt
 ## Why is it used?
 Understanding data types helps in proper memory allocation and avoiding unexpected errors.
 
+# 1. String
+### What is it?
+A string is a sequence of characters enclosed in single ('), double ("), or backticks (`) quotes.
+### How is it used?
+Used for storing and manipulating text data.
+### Syntax:
+
+let firstName = "Nirab";    // Double quotes
+let lastName = 'Baraha';      // Single quotes
+let message = `Hello, ${firstName}`;  // Backticks (Template literals)
+### Why is it used?
+•	To store textual data like names, messages, and descriptions.
+•	Strings support concatenation, interpolation, and manipulation.
+### Common String Methods
+let str = "JavaScript";
+
+console.log(str.length);        // 10 (length of string)
+console.log(str.toUpperCase()); // "JAVASCRIPT"
+console.log(str.toLowerCase()); // "javascript"
+console.log(str.charAt(0));     // "J" (first character)
+console.log(str.substring(0,4)); // "Java" (Extracts part of the string)
+console.log(str.includes("Script")); // true (Checks if substring exists)
+### Coding Problems
+### 1.	Declare a string variable and print its length.
+### 2.	Convert "hello world" to uppercase.
+### 3.	Extract "Script" from "JavaScript".
+### 4.	Check if the string "code" is present in "Learn to code".
+### 5.	Replace "bad" with "good" in "This is a bad day".
+
 # Coding Problems
 ## Declare variables of all primitive data types and log their values.
 ## Convert a number to a string and vice versa.
